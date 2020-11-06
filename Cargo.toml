@@ -2,7 +2,16 @@
 name = "gitignore"
 version = "0.1.0"
 authors = ["Antoine Gagné <gagnantoine@gmail.com>"]
+description = "A tool to generate .gitignore by using the gitignore.io API."
+keywords = ["gitignore", "cli"]
+categories = ["command-line-utilities"]
 edition = "2018"
+repository = "https://github.com/AntoineGagne/gitignore"
+license = "MIT"
+
+[[bin]]
+name = "gitignore"
+path = "src/main.rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
