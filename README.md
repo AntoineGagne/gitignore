@@ -18,7 +18,7 @@ gitignore list
 To create a `.gitignore`, the following command may be used:
 
 ```sh
-gitignore create TOOLS > .gitignore
+gitignore create ${TOOLS} > .gitignore
 ```
 
 For example, to create a `.gitignore` for working on a Rust project in a Linux
